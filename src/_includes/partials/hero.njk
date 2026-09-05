@@ -1,0 +1,10 @@
+<section class="hero">
+  <div class="wrap hero__content">
+    <h1>{{ site.hero.heading }}</h1>
+    <div class="hero__social">
+      {% for s in site.social %}
+      <a href="{{ s.url }}" target="_blank" rel="noopener"><img src="{{ s.icon }}" alt="{{ s.name }}"></a>
+      {% endfor %}
+    </div>
+  </div>
+</section>

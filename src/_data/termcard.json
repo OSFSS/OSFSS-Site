@@ -1,0 +1,87 @@
+{
+  "terms": [
+  {
+    "label": "Trinity Term 2026",
+    "status": "current",
+    "events": [
+      { "week": "W1", "date": "28 Apr", "title": "Shareholder Activism and Sustainability", "time": "6-7PM", "location": "Law board room, Faculty of Law", "link": "https://forms.gle/sKT5yyLmBEft4iAT6" },
+      { "week": "W1", "date": "2 May", "title": "Inter-Society Climate Fresk!", "time": "2-5PM", "location": "Platnauer room, Brasenose College", "link": "https://association.climatefresk.org/training_sessions/cc2d5760-3ae0-4556-946b-94c21af33c19/show_public?language=en&tenant_token=36bd2274d3982262c0021755" },
+      { "week": "W3", "date": "5 May", "title": "Nature Futures Scenarios for Transformative Economy", "time": "6-7PM", "location": "Pavilion, Balliol College", "link": "https://forms.gle/RLd2ZESj2mWY3rdo6" },
+      { "week": "W3", "date": "12 May", "title": "Careers in Sustainable Finance: EBRD Venture Capital, Speaker Panel and Recruitment Event", "time": "5-6:30PM", "location": "Lecture Room, Christ Church", "link": "" },
+      { "week": "W4", "date": "21 May", "title": "OSFSS Annual General Meeting & Election", "time": "6-7PM", "location": "OxSFG Event Room", "link": "" },
+      { "week": "W6", "date": "3 Jun", "title": "From Aid to Investment: The Financialisation of Development", "time": "5-6PM", "location": "Online", "link": "https://forms.gle/SycwhGVjpmKP3fPT9" },
+      { "week": "W6", "date": "5 Jun", "title": "Corruption of Official Development Assistance (ODA) Statistics & Why This Matters for Development and Climate Finance", "time": "6-7PM", "location": "Pavilion, Balliol College", "link": "https://forms.gle/S9uDFvvdSh1D7atg7" },
+      { "week": "W6/7", "date": "6-7 Jun", "title": "Nature Finance Futures Workshop", "time": "9:30AM-5:30PM", "location": "Old Fire Station", "link": "" },
+      { "week": "W7", "date": "7 Jun", "title": "End-of-Year Celebration with Alumni", "time": "6-9PM", "location": "The Oxford Blue", "link": "https://forms.gle/6UZautw5krRBkeAj9" },
+      { "week": "W7", "date": "12 Jun", "title": "Sustainable Marketing in Practice: From Insight to Impact", "time": "1-2:30PM", "location": "TBA", "link": "" }
+    ]
+  },
+  {
+    "label": "Michaelmas Term 2025",
+    "status": "archive",
+    "events": [
+      { "week": "W1", "date": "14 Oct", "category": "", "title": "Pub Social: Meet the Members!", "time": "7PM", "location": "The Gardeners Arms", "link": "https://forms.gle/yyAyeX8fvSgXM4WC9" },
+      { "week": "W2", "date": "21 Oct", "category": "Academic", "title": "Introduction to Sustainable Finance with Dr. Thom Wetzer", "time": "6PM", "location": "TBD", "link": "" },
+      { "week": "W3", "date": "28 Oct", "category": "Academic", "title": "Introduction to Nature Finance", "time": "6PM", "location": "City Room, SoGE", "link": "" },
+      { "week": "W4", "date": "4 Nov", "category": "Social", "title": "Autumn Walk at Harcourt Arboretum", "time": "All day", "location": "", "link": "" },
+      { "week": "W5", "date": "11 Nov", "category": "Academic", "title": "Navigating legal risks of climate change", "time": "6PM", "location": "TDB", "link": "" },
+      { "week": "W6", "date": "18 Nov", "category": "Academic", "title": "Fireside Chat with the Former Nigerian Minister of Finance", "time": "6PM", "location": "TBD", "link": "" },
+      { "week": "W7", "date": "25 Nov", "category": "Academic", "title": "Beyond the Saviour's Complex: Reframing Aid and Sustainable Finance from a Global South Lens", "time": "6PM", "location": "TBD", "link": "https://forms.gle/9v17ALZ84xmk2tTSA" },
+      { "week": "W8", "date": "2 Dec", "category": "Academic", "title": "Crowd-lending in developing and less developed countries w/ Seyithan Ahmet Ates", "time": "6PM", "location": "TBD", "link": "" },
+      { "week": "W9", "date": "9 Dec", "category": "Special", "title": "Christmas Dinner with Alumni", "time": "6PM", "location": "Oriel College", "link": "https://forms.gle/M2eDorPpuitoykuX9" }
+    ]
+  },
+  {
+    "label": "Hilary Term 2025",
+    "status": "archive",
+    "events": [
+      { "week": "W1", "date": "20 Jan", "category": "Speaker Series 1", "title": "Stanford Grad Outreach", "time": "6PM", "location": "Brasenose College", "link": "" },
+      { "week": "W1", "date": "24 Jan", "category": "Social", "title": "Climate and Cocktails", "time": "6PM", "location": "Kings Arms", "link": "" },
+      { "week": "W2", "date": "01 Feb", "category": "Reading Group", "title": "Sustainable Investing", "time": "1PM", "location": "The Lighthouse", "link": "" },
+      { "week": "W4", "date": "11 Feb", "category": "Speaker Series 2", "title": "Policy for Walkable Cities", "time": "5:30PM", "location": "SoGE East Lab", "link": "" },
+      { "week": "W5", "date": "18 Feb", "category": "Speaker Series 3", "title": "Investing in Humanity: Sustainability and Human Rights", "time": "6PM", "location": "@TBD", "link": "" },
+      { "week": "W6", "date": "25 Feb", "category": "Fieldtrip", "title": "London Career Trek", "time": "All Day", "location": "London", "link": "" },
+      { "week": "W6", "date": "26 Feb", "category": "", "title": "Annual General Meeting and Elections", "time": "6PM", "location": "Lincoln College", "link": "" },
+      { "week": "W7", "date": "4 Mar", "category": "Speaker Series 4", "title": "Finance Insights", "time": "6PM", "location": "@TDB", "link": "" },
+      { "week": "W8", "date": "11 Mar", "category": "Social", "title": "Easter Dinner", "time": "5PM", "location": "Mansfield College", "link": "" },
+      { "week": "W8", "date": "12 Mar", "category": "Speaker Series 5", "title": "Careers in Climate Tech", "time": "5PM", "location": "@TBD", "link": "" }
+    ]
+  },
+  {
+    "label": "Michaelmas Term 2024",
+    "status": "archive",
+    "events": [
+      { "week": "W1", "date": "15 Oct", "category": "Freshers' Social", "title": "Welcome Drinks", "time": "6 PM", "location": "The Lighthouse", "link": "" },
+      { "week": "W2", "date": "24 Oct", "category": "Speaker Series 1", "title": "An Introduction to Sustainable Finance", "time": "6PM", "location": "VHH Green Seminar Room, Lincoln College", "link": "" },
+      { "week": "W3", "date": "29 Oct", "category": "Speaker Series 2", "title": "Funding the Future: Investing in Climate Tech & the Path to Net Zero", "time": "6 PM", "location": "SoGE", "link": "" },
+      { "week": "W4", "date": "5 Nov", "category": "Speaker Series 3", "title": "COP-portunity Knocks: Biodiversity, Climate & the Future of Finance", "time": "6PM", "location": "SoGE", "link": "" },
+      { "week": "W5", "date": "13 Nov", "category": "Speaker Series 4", "title": "Bridging Policy and Practice with Oxford Women in Government (Former MP Steve Webb)", "time": "5:30PM", "location": "Online", "link": "" },
+      { "week": "W6", "date": "21 Nov", "category": "Speaker Series 5", "title": "Fireside Chat - Navigating Law, Finance & Justice with Avani Mishra", "time": "6PM", "location": "SoGE", "link": "" },
+      { "week": "W7", "date": "26 Nov", "category": "", "title": "Sustainable Finance Pub Quiz", "time": "6PM", "location": "The Lighthouse", "link": "" },
+      { "week": "W8", "date": "3 Dec", "category": "", "title": "Christmas Party", "time": "TBD", "location": "SoGE", "link": "" }
+    ]
+  },
+  {
+    "label": "Trinity Term 2024",
+    "status": "archive",
+    "events": [
+      { "week": "W2", "date": "30 Apr", "category": "Speaker Series 6", "title": "Sustainable Venture Capital - Utopia or Reality?", "time": "6.30 PM", "location": "TS Eliot Theatre, Merton College", "link": "" },
+      { "week": "W4", "date": "14 May", "category": "", "title": "Insight Evening: Climate Policy Initiative", "time": "6.30 PM", "location": "TBC", "link": "" },
+      { "week": "W6", "date": "28 May", "category": "", "title": "Capstone Conference", "time": "6.30 PM", "location": "TBC", "link": "" },
+      { "week": "W8", "date": "11 Jun", "category": "", "title": "Fireside Chat with Dr Ben Caldecott", "time": "6.30 PM", "location": "TBC", "link": "" }
+    ]
+  },
+  {
+    "label": "Hilary Term 2024",
+    "status": "archive",
+    "events": [
+      { "week": "W2", "date": "23 Jan", "category": "Speaker Series 4", "title": "The Role of Shareholders in Sustainable Finance", "time": "6.30 PM", "location": "Place Suite, School of Geography and the Environment", "link": "https://forms.gle/tcWMKBYR9Q7zdRLVA" },
+      { "week": "W3", "date": "30 Jan", "category": "Speaker Series 5", "title": "Investing in Tomorrow: Time Series and AI Models in Energy Solutions", "time": "6.30 PM", "location": "Margaret Thatcher Centre, Somerville College", "link": "" },
+      { "week": "W5", "date": "13 Feb", "category": "", "title": "Fireside Chat with Matt Scott", "time": "6.30 PM", "location": "Place Suite, School of Geography and the Environment", "link": "" },
+      { "week": "W6", "date": "20 Feb", "category": "", "title": "OSFSS Annual General Meeting", "time": "6.30 PM", "location": "H B Allen Centre, Keble College", "link": "" },
+      { "week": "W7", "date": "27 Feb", "category": "", "title": "OSFSS Capstone Conference", "time": "6.30 PM", "location": "Place Suite, School of Geography and the Environment", "link": "" },
+      { "week": "W7", "date": "TBC", "category": "", "title": "Field Trip to London: Visits to Citi Bank and Dovetail Finance", "time": "", "location": "", "link": "" }
+    ]
+  }
+  ]
+}

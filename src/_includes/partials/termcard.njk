@@ -1,0 +1,28 @@
+<section class="termcard-block section" id="termcard">
+  <div class="wrap">
+    {% for term in termcard.terms %}
+      {% if term.status == "current" %}
+      <div class="termcard-block__header">
+        <span class="eyebrow">Term Card</span>
+        <h2>{{ term.label }}</h2>
+        <p class="termcard-block__hint">Select an event below to register your interest.</p>
+      </div>
+      <div class="event-table">
+        {% for e in term.events %}
+        {% if e.link %}<a class="event-row" href="{{ e.link }}" target="_blank" rel="noopener">{% else %}<div class="event-row">{% endif %}
+          <div class="event-row__when">
+            <div class="event-row__date">{{ e.week }} | {{ e.date }}</div>
+            {% if e.time %}<div class="event-row__time">{{ e.time }}</div>{% endif %}
+          </div>
+          <div class="event-row__main">
+            {% if e.category %}<span class="event-row__category">{{ e.category }}</span>{% endif %}
+            <div class="event-row__title">{{ e.title }}</div>
+          </div>
+          <div class="event-row__loc">{{ e.location }}</div>
+        {% if e.link %}</a>{% else %}</div>{% endif %}
+        {% endfor %}
+      </div>
+      {% endif %}
+    {% endfor %}
+  </div>
+</section>

@@ -1,0 +1,44 @@
+{
+  "name": "Oxford Sustainable Finance Student Society",
+  "shortName": "OSFSS",
+  "url": "https://www.osfss.org",
+  "description": "A place where students become future leaders in sustainable finance.",
+  "hero": {
+    "heading": "A place where students become future leaders in sustainable finance",
+    "subheading": "Taking your sustainable finance career to higher grounds",
+    "body": "We bring together students, researchers and industry to explore how finance can respond to the world's most pressing sustainability challenges."
+  },
+  "about": {
+    "heading": "About Us",
+    "body": "OSFSS was co-founded in 2020 by the Oxford Sustainable Finance Group and the Oxford Sustainable Law Programme. As a student organisation, we believe that the sustainable finance ecosystem requires an interdisciplinary approach to be able to address the most pressing sustainability issues facing our planet. Our members come from across the university - law, history, math, business - and from undergraduates to postdocs.",
+    "orgs": [
+      { "name": "Oxford Sustainable Finance Group", "url": "https://www.smithschool.ox.ac.uk/research/sustainable-finance/", "logo": "/assets/img/osfg-logo.jpg" },
+      { "name": "Oxford Sustainable Law Programme", "url": "https://www.smithschool.ox.ac.uk/research/sustainable-law/index.html#overview", "logo": "/assets/img/oxsl-logo.png" }
+    ]
+  },
+  "membership": {
+    "heading": "Membership benefits",
+    "price": "Annual membership is available to current students of the University of Oxford for only £5 per year!",
+    "benefits": [
+      "Free drink at your first event.",
+      "Opportunity to become part of the committee.",
+      "Access to exclusive events and formal receptions at Oxford.",
+      "Closer engagement with speakers and senior advisors.",
+      "Special discount for paid events."
+    ],
+    "ctaLabel": "Become a Member",
+    "ctaUrl": "#"
+  },
+  "social": [
+    { "name": "LinkedIn", "url": "http://linkedin.com/company/osfss", "icon": "/assets/img/icon-linkedin.png" },
+    { "name": "Instagram", "url": "https://www.instagram.com/sustainablefinance.ox/", "icon": "/assets/img/icon-instagram.png" },
+    { "name": "Facebook", "url": "https://www.facebook.com/oxsfs", "icon": "/assets/img/icon-facebook.png" },
+    { "name": "Twitter", "url": "https://twitter.com/oxsfs", "icon": "/assets/img/icon-twitter.png" }
+  ],
+  "footer": {
+    "email": "osfss-info@maillist.ox.ac.uk",
+    "emailUrl": "https://web.maillist.ox.ac.uk/ox/info/osfss-info",
+    "address": "University of Oxford, Oxford, OX1 3QY United Kingdom"
+  },
+  "joinUrl": "/#join"
+}

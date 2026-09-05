@@ -1,0 +1,68 @@
+<form name="mailing-list" class="signup-form" method="POST" data-netlify="true" netlify-honeypot="bot-field" id="mailingListForm">
+  <input type="hidden" name="form-name" value="mailing-list">
+  <p class="hidden" style="display:none">
+    <label>Don't fill this out if you're human: <input name="bot-field"></label>
+  </p>
+  <h2>Stay up to date by joining our free mailing list</h2>
+  <div class="form-row">
+    <div class="form-field">
+      <label for="firstName">First Name</label>
+      <input id="firstName" name="First Name" type="text" required>
+    </div>
+    <div class="form-field">
+      <label for="lastName">Last Name</label>
+      <input id="lastName" name="Last Name" type="text" required>
+    </div>
+  </div>
+  <div class="form-row">
+    <div class="form-field">
+      <label for="oxfordEmail">Oxford Email</label>
+      <input id="oxfordEmail" name="Oxford Email" type="email" required>
+    </div>
+    <div class="form-field">
+      <label for="college">College</label>
+      <input id="college" name="College" type="text">
+    </div>
+  </div>
+  <div class="form-row">
+    <div class="form-field">
+      <label for="courseTitle">Course Title</label>
+      <input id="courseTitle" name="Course Title" type="text" placeholder="e.g. Economics and Management">
+    </div>
+    <div class="form-field">
+      <label for="courseType">Course Type</label>
+      <select id="courseType" name="Course Type">
+        <option value="">Select&hellip;</option>
+        <option value="BA/BSc">BA/BSc</option>
+        <option value="MA/MSc/MPhil">MA/MSc/MPhil</option>
+        <option value="DPhil">DPhil</option>
+      </select>
+    </div>
+  </div>
+  <div class="form-row">
+    <div class="form-field">
+      <label for="yearOfStudy">Year of Study</label>
+      <input id="yearOfStudy" name="Year of Study" type="text" placeholder="e.g. 2nd year">
+    </div>
+    <div class="form-field">
+      <label for="fieldOfStudy">Field of Study</label>
+      <select id="fieldOfStudy" name="Field of Study">
+        <option value="">Select&hellip;</option>
+        <option value="STEM">STEM</option>
+        <option value="Humanities">Humanities</option>
+        <option value="Social Sciences">Social Sciences</option>
+        <option value="Economics & Politics">Economics &amp; Politics</option>
+        <option value="Business & Management">Business &amp; Management</option>
+        <option value="Law">Law</option>
+        <option value="Medicine">Medicine</option>
+        <option value="Other">Other</option>
+      </select>
+    </div>
+  </div>
+  <label class="form-consent">
+    <input type="checkbox" name="Consent" required>
+    <span>I agree for OSFSS to hold and store my data entered in this form. I also agree to receive weekly/biweekly updates from the OSFSS Committee.</span>
+  </label>
+  <button class="btn" type="submit">Submit</button>
+  <p class="form-success" id="formSuccess">Thanks for submitting!</p>
+</form>

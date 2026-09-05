@@ -1,0 +1,15 @@
+<header class="site-header{% if header_solid %} site-header--solid{% endif %}">
+  <div class="wrap">
+    <a class="site-header__logo" href="/">
+      <img src="/assets/img/logo-white.png" alt="{{ site.name }}">
+    </a>
+    <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false" id="navToggle">&#9776;</button>
+    <ul class="site-nav" id="siteNav">
+      <li><a href="/">Home</a></li>
+      <li><a href="/#about">About Us</a></li>
+      <li><a href="/#termcard">Termcard</a></li>
+      <li><a href="/blog/">Blog</a></li>
+    </ul>
+    <a class="btn btn--join-dark" href="{{ site.joinUrl }}">Join now</a>
+  </div>
+</header>

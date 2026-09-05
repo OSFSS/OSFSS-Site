@@ -1,0 +1,10 @@
+<section class="section partners">
+  <div class="wrap">
+    <h2>Our Partners &amp; Affiliates</h2>
+    <div class="partners__grid">
+      {% for p in partners.partners %}
+      <a class="partners__card" href="{{ p.url }}" target="_blank" rel="noopener"><img src="{{ p.logo }}" alt="{{ p.name }}"></a>
+      {% endfor %}
+    </div>
+  </div>
+</section>

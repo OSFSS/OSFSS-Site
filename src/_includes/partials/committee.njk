@@ -1,0 +1,28 @@
+<section class="section committee" id="committee">
+  <div class="wrap">
+    <h2 style="text-align:center">Society Officers</h2>
+    {% for stream in committee.streams %}
+      {% if not loop.first %}<h3 class="committee__stream-title">{{ stream.name }}</h3>{% endif %}
+      <div class="committee-grid" style="{% if loop.first %}margin-top:32px{% endif %}">
+        {% for m in stream.members %}
+        <div class="committee-card">
+          {% if m.photo %}
+          <img class="committee-card__photo" src="{{ m.photo }}" alt="{{ m.name }}">
+          {% else %}
+          <div class="committee-card__photo committee-card__photo--placeholder">{{ m.name | initials }}</div>
+          {% endif %}
+          <h4>{{ m.name }}</h4>
+          <p class="committee-card__role">{{ m.role }}</p>
+          <p class="committee-card__course">{{ m.course }}</p>
+          <p class="committee-card__college">{{ m.college }}</p>
+          {% if m.linkedin %}
+          <div class="committee-card__social">
+            <a href="{{ m.linkedin }}" target="_blank" rel="noopener"><img src="/assets/img/icon-linkedin.png" alt="LinkedIn"></a>
+          </div>
+          {% endif %}
+        </div>
+        {% endfor %}
+      </div>
+    {% endfor %}
+  </div>
+</section>

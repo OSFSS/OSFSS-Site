@@ -1,0 +1,20 @@
+<section class="section about-section" id="about">
+  <div class="wrap about">
+    <div class="about__media">
+      <div class="about__photo-wrap">
+        <img class="about__photo" src="/assets/img/about-photo.jpg" alt="Oxford">
+        <div class="about__photo-overlay"></div>
+      </div>
+      <img class="about__badge" src="/assets/img/about-badge.png" alt="">
+    </div>
+    <div class="about__body">
+      <h2>{{ site.about.heading }}</h2>
+      <p>{{ site.about.body }}</p>
+      <div class="about__orgs">
+        {% for org in site.about.orgs %}
+        <a href="{{ org.url }}" target="_blank" rel="noopener"><img src="{{ org.logo }}" alt="{{ org.name }}"></a>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>

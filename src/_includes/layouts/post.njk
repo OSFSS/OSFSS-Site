@@ -1,0 +1,26 @@
+---
+layout: base.njk
+header_solid: true
+---
+<div class="page-hero">
+  <div class="wrap post-header">
+    <h1>{{ title }}</h1>
+    {% if excerpt %}<p class="post-header__subheading">{{ excerpt }}</p>{% endif %}
+    <p class="post-header__meta">
+      <span class="post-header__meta-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 3.6-7 8-7s8 3 8 7"/></svg>{{ author or "OSFSS Committee" }}</span>
+      <span>&middot;</span>
+      <span class="post-header__meta-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/></svg>{{ date | readableDate }}</span>
+      <span>&middot;</span>
+      <span class="post-header__meta-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/></svg>{{ readTime }}</span>
+    </p>
+  </div>
+</div>
+<div class="section" style="padding-top:0">
+  {% if image %}
+  <div class="post-cover"><img src="{{ image }}" alt="{{ title }}"></div>
+  {% endif %}
+  <div class="wrap post-body">
+    {{ content | safe }}
+  </div>
+  <p class="post-back-wrap"><a class="post-back" href="/blog/">&larr; All Posts</a></p>
+</div>

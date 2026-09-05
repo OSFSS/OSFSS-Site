@@ -1,0 +1,151 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "src/assets/img"
+public_folder: "/assets/img"
+
+collections:
+  - name: "blog"
+    label: "Blog Posts"
+    folder: "src/blog"
+    create: true
+    slug: "{{slug}}"
+    extension: "md"
+    identifier_field: "title"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Author", name: "author", widget: "string" }
+      - { label: "Date", name: "date", widget: "datetime", format: "YYYY-MM-DD", date_format: "YYYY-MM-DD", time_format: false }
+      - { label: "Read Time (e.g. 3 min read)", name: "readTime", widget: "string", default: "3 min read" }
+      - { label: "Cover Image", name: "image", widget: "image" }
+      - { label: "Excerpt (short summary shown on blog list page)", name: "excerpt", widget: "text" }
+      - { label: "Body", name: "body", widget: "markdown" }
+
+  - name: "termcard"
+    label: "Term Card"
+    files:
+      - name: "termcard"
+        label: "Term Card"
+        file: "src/_data/termcard.json"
+        fields:
+          - label: "Terms"
+            name: "terms"
+            widget: "list"
+            summary: "{{fields.label}} ({{fields.status}})"
+            fields:
+              - { label: "Term Label (e.g. Trinity Term 2026)", name: "label", widget: "string" }
+              - label: "Status"
+                name: "status"
+                widget: "select"
+                options: ["current", "archive"]
+                hint: "Only ONE term should be 'current' at a time — it shows at the top of the term card. All others should be 'archive'."
+              - label: "Events"
+                name: "events"
+                widget: "list"
+                summary: "{{fields.week}} | {{fields.date}} — {{fields.title}}"
+                fields:
+                  - { label: "Week (e.g. W1)", name: "week", widget: "string" }
+                  - { label: "Date (e.g. 28 Apr)", name: "date", widget: "string" }
+                  - { label: "Category (optional, e.g. Academic, Social)", name: "category", widget: "string", required: false }
+                  - { label: "Event Title", name: "title", widget: "string" }
+                  - { label: "Time (e.g. 6-7PM)", name: "time", widget: "string", required: false }
+                  - { label: "Location", name: "location", widget: "string", required: false }
+                  - { label: "Signup Link (optional)", name: "link", widget: "string", required: false }
+
+  - name: "committee"
+    label: "Committee"
+    files:
+      - name: "committee"
+        label: "Committee"
+        file: "src/_data/committee.json"
+        fields:
+          - { label: "Committee Year (e.g. Committee 2025-26)", name: "year", widget: "string" }
+          - label: "Streams"
+            name: "streams"
+            widget: "list"
+            summary: "{{fields.name}}"
+            fields:
+              - { label: "Stream Name (e.g. Events Stream)", name: "name", widget: "string" }
+              - label: "Members"
+                name: "members"
+                widget: "list"
+                summary: "{{fields.name}} — {{fields.role}}"
+                fields:
+                  - { label: "Name", name: "name", widget: "string" }
+                  - { label: "Role", name: "role", widget: "string" }
+                  - { label: "Course", name: "course", widget: "string", required: false }
+                  - { label: "College", name: "college", widget: "string", required: false }
+                  - { label: "Photo", name: "photo", widget: "image", required: false, hint: "Leave blank to show initials instead" }
+                  - { label: "LinkedIn URL", name: "linkedin", widget: "string", required: false }
+
+  - name: "partners"
+    label: "Partners"
+    files:
+      - name: "partners"
+        label: "Partners"
+        file: "src/_data/partners.json"
+        fields:
+          - label: "Partners"
+            name: "partners"
+            widget: "list"
+            summary: "{{fields.name}}"
+            fields:
+              - { label: "Name", name: "name", widget: "string" }
+              - { label: "Website URL", name: "url", widget: "string" }
+              - { label: "Logo", name: "logo", widget: "image" }
+
+  - name: "settings"
+    label: "Site Settings"
+    files:
+      - name: "site"
+        label: "General Site Settings"
+        file: "src/_data/site.json"
+        fields:
+          - { label: "Society Full Name", name: "name", widget: "string" }
+          - { label: "Short Name", name: "shortName", widget: "string" }
+          - { label: "Site Description", name: "description", widget: "string" }
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - { label: "Heading", name: "heading", widget: "text" }
+              - { label: "Subheading", name: "subheading", widget: "string" }
+              - { label: "Body", name: "body", widget: "text" }
+          - label: "About Us Section"
+            name: "about"
+            widget: "object"
+            fields:
+              - { label: "Heading", name: "heading", widget: "string" }
+              - { label: "Body", name: "body", widget: "text" }
+              - label: "Partner Organisations (logos under About Us)"
+                name: "orgs"
+                widget: "list"
+                fields:
+                  - { label: "Name", name: "name", widget: "string" }
+                  - { label: "URL", name: "url", widget: "string" }
+                  - { label: "Logo", name: "logo", widget: "image" }
+          - label: "Membership Section"
+            name: "membership"
+            widget: "object"
+            fields:
+              - { label: "Heading", name: "heading", widget: "string" }
+              - { label: "Price line", name: "price", widget: "string" }
+              - { label: "Benefits (one per line)", name: "benefits", widget: "list" }
+              - { label: "Button Label", name: "ctaLabel", widget: "string" }
+              - { label: "Button URL", name: "ctaUrl", widget: "string" }
+          - label: "Social Media Links"
+            name: "social"
+            widget: "list"
+            fields:
+              - { label: "Name", name: "name", widget: "string" }
+              - { label: "URL", name: "url", widget: "string" }
+              - { label: "Icon", name: "icon", widget: "image" }
+          - label: "Footer"
+            name: "footer"
+            widget: "object"
+            fields:
+              - { label: "Email address", name: "email", widget: "string" }
+              - { label: "Email link URL", name: "emailUrl", widget: "string" }
+              - { label: "Address", name: "address", widget: "string" }
+          - { label: "Join Now button URL (used in header/footer)", name: "joinUrl", widget: "string" }

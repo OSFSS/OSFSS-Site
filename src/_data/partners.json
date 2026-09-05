@@ -1,0 +1,9 @@
+{
+  "partners": [
+    { "name": "Smith School of Enterprise and the Environment", "url": "https://www.smithschool.ox.ac.uk", "logo": "/assets/img/partner-smith-school.png" },
+    { "name": "Centre for Green Finance and Investment (CGFI)", "url": "https://ukcgfi.org", "logo": "/assets/img/partner-cgfi.png" },
+    { "name": "Oxford Sustainable Finance Group", "url": "https://www.smithschool.ox.ac.uk/research/sustainable-finance/", "logo": "/assets/img/partner-osfg.png" },
+    { "name": "Saïd Business School", "url": "https://www.sbs.ox.ac.uk", "logo": "/assets/img/partner-said.png" },
+    { "name": "Oxford Sustainable Law Programme", "url": "https://www.smithschool.ox.ac.uk/research/sustainable-law/index.html#overview", "logo": "/assets/img/partner-osl.png" }
+  ]
+}
