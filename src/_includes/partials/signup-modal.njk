@@ -1,0 +1,8 @@
+<div class="signup-modal" id="signupModal" hidden>
+  <div class="signup-modal__backdrop" data-modal-close></div>
+  <div class="signup-modal__panel" role="dialog" aria-modal="true" aria-label="Join our mailing list">
+    <button type="button" class="signup-modal__close" data-modal-close aria-label="Close">&times;</button>
+    {% set formId = "modal" %}
+    {% include "partials/mailing-list-form.njk" %}
+  </div>
+</div>

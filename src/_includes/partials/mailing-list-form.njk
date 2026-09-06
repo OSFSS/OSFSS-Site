@@ -1,4 +1,5 @@
-<form name="mailing-list" class="signup-form" method="POST" data-netlify="true" netlify-honeypot="bot-field" id="mailingListForm">
+{% set fid = formId or 'main' %}
+<form name="mailing-list" class="signup-form" method="POST" data-netlify="true" netlify-honeypot="bot-field">
   <input type="hidden" name="form-name" value="mailing-list">
   <p class="hidden" style="display:none">
     <label>Don't fill this out if you're human: <input name="bot-field"></label>
@@ -6,32 +7,32 @@
   <h2>Stay up to date by joining our free mailing list</h2>
   <div class="form-row">
     <div class="form-field">
-      <label for="firstName">First Name</label>
-      <input id="firstName" name="First Name" type="text" required>
+      <label for="firstName-{{ fid }}">First Name</label>
+      <input id="firstName-{{ fid }}" name="First Name" type="text" required>
     </div>
     <div class="form-field">
-      <label for="lastName">Last Name</label>
-      <input id="lastName" name="Last Name" type="text" required>
-    </div>
-  </div>
-  <div class="form-row">
-    <div class="form-field">
-      <label for="oxfordEmail">Oxford Email</label>
-      <input id="oxfordEmail" name="Oxford Email" type="email" required>
-    </div>
-    <div class="form-field">
-      <label for="college">College</label>
-      <input id="college" name="College" type="text">
+      <label for="lastName-{{ fid }}">Last Name</label>
+      <input id="lastName-{{ fid }}" name="Last Name" type="text" required>
     </div>
   </div>
   <div class="form-row">
     <div class="form-field">
-      <label for="courseTitle">Course Title</label>
-      <input id="courseTitle" name="Course Title" type="text" placeholder="e.g. Economics and Management">
+      <label for="oxfordEmail-{{ fid }}">Oxford Email</label>
+      <input id="oxfordEmail-{{ fid }}" name="Oxford Email" type="email" required>
     </div>
     <div class="form-field">
-      <label for="courseType">Course Type</label>
-      <select id="courseType" name="Course Type">
+      <label for="college-{{ fid }}">College</label>
+      <input id="college-{{ fid }}" name="College" type="text">
+    </div>
+  </div>
+  <div class="form-row">
+    <div class="form-field">
+      <label for="courseTitle-{{ fid }}">Course Title</label>
+      <input id="courseTitle-{{ fid }}" name="Course Title" type="text" placeholder="e.g. Economics and Management">
+    </div>
+    <div class="form-field">
+      <label for="courseType-{{ fid }}">Course Type</label>
+      <select id="courseType-{{ fid }}" name="Course Type">
         <option value="">Select&hellip;</option>
         <option value="BA/BSc">BA/BSc</option>
         <option value="MA/MSc/MPhil">MA/MSc/MPhil</option>
@@ -41,12 +42,12 @@
   </div>
   <div class="form-row">
     <div class="form-field">
-      <label for="yearOfStudy">Year of Study</label>
-      <input id="yearOfStudy" name="Year of Study" type="text" placeholder="e.g. 2nd year">
+      <label for="yearOfStudy-{{ fid }}">Year of Study</label>
+      <input id="yearOfStudy-{{ fid }}" name="Year of Study" type="text" placeholder="e.g. 2nd year">
     </div>
     <div class="form-field">
-      <label for="fieldOfStudy">Field of Study</label>
-      <select id="fieldOfStudy" name="Field of Study">
+      <label for="fieldOfStudy-{{ fid }}">Field of Study</label>
+      <select id="fieldOfStudy-{{ fid }}" name="Field of Study">
         <option value="">Select&hellip;</option>
         <option value="STEM">STEM</option>
         <option value="Humanities">Humanities</option>
@@ -64,5 +65,5 @@
     <span>I agree for OSFSS to hold and store my data entered in this form. I also agree to receive weekly/biweekly updates from the OSFSS Committee.</span>
   </label>
   <button class="btn" type="submit">Submit</button>
-  <p class="form-success" id="formSuccess">Thanks for submitting!</p>
+  <p class="form-success">Thanks for submitting!</p>
 </form>

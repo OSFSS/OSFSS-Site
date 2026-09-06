@@ -1,6 +1,7 @@
 <section class="section committee" id="committee">
   <div class="wrap">
-    <h2 style="text-align:center">Society Officers</h2>
+    <h2 class="committee__heading">OSFSS Committee 2026/27</h2>
+    <h3 class="committee__subheading">Society Officers</h3>
     {% for stream in committee.streams %}
       {% if not loop.first %}<h3 class="committee__stream-title">{{ stream.name }}</h3>{% endif %}
       <div class="committee-grid" style="{% if loop.first %}margin-top:32px{% endif %}">
@@ -26,7 +27,14 @@
     {% endfor %}
     <div class="committee-cta">
       <h3>Join Our Committee</h3>
-      <p>We're gearing up to recruit the rest of our committee soon — keep an eye out, or reach out if you're interested in getting involved.</p>
+      <p>We're gearing up to recruit the rest of our committee soon. Here's what you'll get out of it:</p>
+      <ul class="committee-cta__benefits">
+        <li>Add real, tangible experience to your CV</li>
+        <li>Network with like-minded peers across the university</li>
+        <li>Gain hands-on experience organising events, talks and campaigns</li>
+        <li>Be part of committee dinners, socials and end-of-term celebrations</li>
+        <li>Work directly with speakers, partners and industry professionals</li>
+      </ul>
       <a class="btn" href="{{ site.committeeApplyUrl or '#' }}">Apply now</a>
     </div>
   </div>
