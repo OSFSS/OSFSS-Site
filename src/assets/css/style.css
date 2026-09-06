@@ -648,17 +648,16 @@ a.committee-card:hover {
 .site-footer nav ul { list-style: none; display: flex; gap: 20px; padding: 0; margin: 0; flex-wrap: wrap; }
 .site-footer nav a { font-size: 0.9rem; color: #b8c6de; }
 .site-footer nav a:hover { color: var(--white); }
-.site-footer__nav-col { display: flex; flex-direction: column; gap: 16px; }
+.site-footer__nav-col { display: flex; flex-direction: column; align-items: flex-end; gap: 16px; }
 .site-footer__partners {
   display: flex;
   align-items: center;
   gap: 24px;
-  margin-left: auto;
 }
 .site-footer__partners img { height: 40px; width: auto; }
 .site-footer__bottom {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
   gap: 16px;
