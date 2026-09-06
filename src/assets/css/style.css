@@ -600,6 +600,15 @@ a.committee-card:hover {
   justify-content: center;
 }
 .signup-modal__close:hover { background: var(--border); }
+.signup-modal__brand {
+  position: absolute;
+  bottom: 20px;
+  right: 24px;
+  width: 72px;
+  height: auto;
+  pointer-events: none;
+  opacity: 0.9;
+}
 @media (max-width: 560px) {
   .signup-modal__panel { padding: 28px 20px; }
 }
