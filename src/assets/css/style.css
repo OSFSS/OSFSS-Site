@@ -567,10 +567,11 @@ a.committee-card:hover {
   justify-content: center;
   padding: 24px;
 }
+.signup-modal[hidden] { display: none; }
 .signup-modal__backdrop {
   position: absolute;
   inset: 0;
-  background: rgba(7,17,41,0.7);
+  background: rgba(7,17,41,0.88);
 }
 .signup-modal__panel {
   position: relative;
