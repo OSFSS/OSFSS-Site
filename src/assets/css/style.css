@@ -571,7 +571,7 @@ a.committee-card:hover {
 .signup-modal__backdrop {
   position: absolute;
   inset: 0;
-  background: rgba(7,17,41,0.88);
+  background: rgba(3,5,10,0.7);
 }
 .signup-modal__panel {
   position: relative;
@@ -602,8 +602,8 @@ a.committee-card:hover {
 .signup-modal__close:hover { background: var(--border); }
 .signup-modal__brand {
   position: absolute;
-  bottom: 20px;
-  right: 24px;
+  bottom: 40px;
+  right: 40px;
   width: 72px;
   height: auto;
   pointer-events: none;
