@@ -5,7 +5,7 @@
       {% if not loop.first %}<h3 class="committee__stream-title">{{ stream.name }}</h3>{% endif %}
       <div class="committee-grid" style="{% if loop.first %}margin-top:32px{% endif %}">
         {% for m in stream.members %}
-        <div class="committee-card">
+        {% if m.linkedin %}<a class="committee-card" href="{{ m.linkedin }}" target="_blank" rel="noopener">{% else %}<div class="committee-card">{% endif %}
           {% if m.photo %}
           <img class="committee-card__photo" src="{{ m.photo }}" alt="{{ m.name }}">
           {% else %}
@@ -17,10 +17,10 @@
           <p class="committee-card__college">{{ m.college }}</p>
           {% if m.linkedin %}
           <div class="committee-card__social">
-            <a href="{{ m.linkedin }}" target="_blank" rel="noopener"><img src="/assets/img/icon-linkedin.png" alt="LinkedIn"></a>
+            <img src="/assets/img/icon-linkedin.png" alt="LinkedIn">
           </div>
           {% endif %}
-        </div>
+        {% if m.linkedin %}</a>{% else %}</div>{% endif %}
         {% endfor %}
       </div>
     {% endfor %}
