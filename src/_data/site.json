@@ -16,19 +16,7 @@
       { "name": "Oxford Sustainable Law Programme", "url": "https://www.smithschool.ox.ac.uk/research/sustainable-law/index.html#overview", "logo": "/assets/img/oxsl-logo.png" }
     ]
   },
-  "membership": {
-    "heading": "Membership benefits",
-    "price": "Annual membership is available to current students of the University of Oxford for only £5 per year!",
-    "benefits": [
-      "Free drink at your first event.",
-      "Opportunity to become part of the committee.",
-      "Access to exclusive events and formal receptions at Oxford.",
-      "Closer engagement with speakers and senior advisors.",
-      "Special discount for paid events."
-    ],
-    "ctaLabel": "Become a Member",
-    "ctaUrl": "#"
-  },
+  "committeeApplyUrl": "#",
   "social": [
     { "name": "LinkedIn", "url": "http://linkedin.com/company/osfss", "icon": "/assets/img/icon-linkedin.png" },
     { "name": "Instagram", "url": "https://www.instagram.com/sustainablefinance.ox/", "icon": "/assets/img/icon-instagram.png" },

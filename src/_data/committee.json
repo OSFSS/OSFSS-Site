@@ -1,47 +1,13 @@
 {
-  "year": "Committee 2025-26",
+  "year": "Committee 2026-27",
   "streams": [
     {
       "name": "Society Officers",
       "members": [
-        { "name": "Leah Han", "role": "President", "course": "DPhil in Biology", "college": "The Queen's College", "photo": "/assets/img/leah-han.jpg", "linkedin": "https://www.linkedin.com/in/leah-han-481333214/" },
-        { "name": "Brendon Mahere", "role": "Treasurer", "course": "Masters of Business Administration", "college": "Green Templeton College", "photo": "/assets/img/brendon-mahere.jpg", "linkedin": "https://www.linkedin.com/in/brendonmahere26399" },
-        { "name": "Abhipsa Panda", "role": "Secretary", "course": "BA Economics and Management", "college": "St Edmund Hall", "photo": "/assets/img/abhipsa-panda.jpg", "linkedin": "https://www.linkedin.com/in/jordan-calverley-a16017101/" }
-      ]
-    },
-    {
-      "name": "Events Stream",
-      "members": [
-        { "name": "Kavika Hewamana", "role": "Events VP", "course": "BA in Biology", "college": "Balliol College", "photo": "/assets/img/kavika-hewamana.jpg", "linkedin": "https://www.linkedin.com/in/kavika-hewamana/?originalSubdomain=uk" },
-        { "name": "Theo Monnens", "role": "Event Coordinator", "course": "MSc in Law and Finance", "college": "Lincoln College", "photo": "/assets/img/theo-monnens.jpg", "linkedin": "https://www.linkedin.com/in/theo-monnens1/?originalSubdomain=be" },
-        { "name": "Fellipe Correia", "role": "Event Coordinator", "course": "MSc in Law and Finance", "college": "Reuben College", "photo": "/assets/img/fellipe-correia.jpg", "linkedin": "https://www.linkedin.com/in/fellipemuller/?locale=en_US" },
-        { "name": "Linus Njogu", "role": "Event Coordinator", "course": "MSc in Water Science, Policy and Management", "college": "Keble College", "photo": "/assets/img/linus-njogu.jpg", "linkedin": "https://www.linkedin.com/in/linusnjogu/" },
-        { "name": "Krish Angra", "role": "Event Coordinator", "course": "MPhil in Economics", "college": "Regents Park College", "photo": "", "linkedin": "https://www.linkedin.com/in/krish-angra-985068139/" },
-        { "name": "Tavish Traut", "role": "Event Coordinator", "course": "DPhil in Experimental Psychology", "college": "Kellogg College", "photo": "/assets/img/tavish-traut.jpg", "linkedin": "https://www.linkedin.com/in/tavishtraut/" }
-      ]
-    },
-    {
-      "name": "Learning Stream",
-      "members": [
-        { "name": "Abhipsa Panda", "role": "Learning VP", "course": "BA Economics and Management", "college": "St Edmund Hall", "photo": "/assets/img/abhipsa-panda.jpg", "linkedin": "https://www.linkedin.com/in/jordan-calverley-a16017101/" },
-        { "name": "Kavika Hewamana", "role": "Sustainable Finance 101 Trainer", "course": "BA in Biology", "college": "Balliol College", "photo": "/assets/img/kavika-hewamana.jpg", "linkedin": "https://www.linkedin.com/in/kavika-hewamana/?originalSubdomain=uk" },
-        { "name": "Anis Jaafary", "role": "Fund Analyst", "course": "MSc in Environmental Change and Management", "college": "Hertford College", "photo": "/assets/img/anis-jaafary.png", "linkedin": "https://www.linkedin.com/in/anis-jaafary-9573931b4/" },
-        { "name": "Lexi Xiao", "role": "Fund Analyst", "course": "Master in Chemistry", "college": "The Queen's College", "photo": "/assets/img/lexi-xiao.jpg", "linkedin": "https://www.linkedin.com/in/xiao-xiao-2a8059354/?originalSubdomain=uk" }
-      ]
-    },
-    {
-      "name": "Communications Stream",
-      "members": [
-        { "name": "Zhuoyan Wei", "role": "Communications VP", "course": "BA in Jurisprudence", "college": "Jesus College", "photo": "/assets/img/zhuoyan-wei.jpg", "linkedin": "https://www.linkedin.com/in/zhuoyan-wei-464722349/" },
-        { "name": "Areena Azam", "role": "Newsletter Editor", "course": "BA in History", "college": "Corpus Christi College", "photo": "/assets/img/areena-azam.jpg", "linkedin": "https://www.linkedin.com/in/areena-iman-binti-azam-0b99b526a/" },
-        { "name": "Ephraim Ziwoya", "role": "Web Master", "course": "MSc in Water Science, Policy and Management", "college": "Linacre College", "photo": "/assets/img/ephraim-ziwoya.jpg", "linkedin": "https://www.linkedin.com/in/ziwoyaephraim2021/" }
-      ]
-    },
-    {
-      "name": "Partnerships Stream",
-      "members": [
-        { "name": "Navya Kala", "role": "Alumni Manager", "course": "MSc in Economics for Development", "college": "St Cross College", "photo": "/assets/img/navya-kala.jpg", "linkedin": "https://www.linkedin.com/in/navya-kala/" },
-        { "name": "Pawlin Marwah", "role": "External Relations Manager", "course": "MSc in Taxation", "college": "Worcester College", "photo": "/assets/img/pawlin-marwah.jpg", "linkedin": "https://www.linkedin.com/in/pawlin-marwah-078a1447/" }
+        { "name": "Abhipsa Panda", "role": "Co-President", "course": "BA Economics & Management", "college": "St Edmund Hall", "photo": "/assets/img/abhipsa-panda-2026.jpg", "linkedin": "https://www.linkedin.com/in/abhipsa-panda-profile/" },
+        { "name": "Kavika Hewamana", "role": "Co-President", "course": "MBiol Biology", "college": "Balliol College", "photo": "/assets/img/kavika-hewamana-2026.jpg", "linkedin": "https://www.linkedin.com/in/kavika-hewamana/" },
+        { "name": "David Naylor", "role": "Treasurer", "course": "BA Economics & Management", "college": "", "photo": "/assets/img/david-naylor.png", "linkedin": "https://www.linkedin.com/in/davidnaylor1/" },
+        { "name": "Yildiz Batum", "role": "Secretary", "course": "BA PPE", "college": "", "photo": "/assets/img/yildiz-batum.jpg", "linkedin": "https://www.linkedin.com/in/y%C4%B1ld%C4%B1z-batum-458673252/" }
       ]
     }
   ]

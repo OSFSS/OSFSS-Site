@@ -2,19 +2,7 @@
   <div class="wrap">
     <h2 class="signup-outer__heading">Join Us</h2>
   </div>
-  <div class="wrap signup-section">
+  <div class="wrap signup-section signup-section--solo">
     {% include "partials/mailing-list-form.njk" %}
-    <div class="signup-section__divider"></div>
-    <div class="membership">
-      <h2>{{ site.membership.heading }}</h2>
-      <p class="membership__price">{{ site.membership.price }}</p>
-      <p style="font-weight:600">Benefits</p>
-      <ul class="membership__benefits">
-        {% for b in site.membership.benefits %}
-        <li>{{ b }}</li>
-        {% endfor %}
-      </ul>
-      <a class="btn" href="{{ site.membership.ctaUrl }}">{{ site.membership.ctaLabel }}</a>
-    </div>
   </div>
 </section>

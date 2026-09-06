@@ -125,15 +125,7 @@ collections:
                   - { label: "Name", name: "name", widget: "string" }
                   - { label: "URL", name: "url", widget: "string" }
                   - { label: "Logo", name: "logo", widget: "image" }
-          - label: "Membership Section"
-            name: "membership"
-            widget: "object"
-            fields:
-              - { label: "Heading", name: "heading", widget: "string" }
-              - { label: "Price line", name: "price", widget: "string" }
-              - { label: "Benefits (one per line)", name: "benefits", widget: "list" }
-              - { label: "Button Label", name: "ctaLabel", widget: "string" }
-              - { label: "Button URL", name: "ctaUrl", widget: "string" }
+          - { label: "Committee Apply Button URL", name: "committeeApplyUrl", widget: "string" }
           - label: "Social Media Links"
             name: "social"
             widget: "list"
