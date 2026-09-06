@@ -527,6 +527,7 @@ a.committee-card:hover {
 @media (max-width: 560px) { .form-row { grid-template-columns: 1fr; } }
 .form-field { display: flex; flex-direction: column; gap: 6px; }
 .form-field label { font-size: 0.85rem; font-weight: 600; color: var(--ink); }
+.form-required { color: #d6362a; font-weight: 700; }
 .form-field input,
 .form-field select {
   border: 1px solid var(--border);

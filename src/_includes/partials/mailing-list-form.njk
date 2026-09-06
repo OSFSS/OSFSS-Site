@@ -7,31 +7,31 @@
   <h2>Stay up to date by joining our free mailing list</h2>
   <div class="form-row">
     <div class="form-field">
-      <label for="firstName-{{ fid }}">First Name</label>
+      <label for="firstName-{{ fid }}">First Name <span class="form-required">*</span></label>
       <input id="firstName-{{ fid }}" name="First Name" type="text" required>
     </div>
     <div class="form-field">
-      <label for="lastName-{{ fid }}">Last Name</label>
+      <label for="lastName-{{ fid }}">Last Name <span class="form-required">*</span></label>
       <input id="lastName-{{ fid }}" name="Last Name" type="text" required>
     </div>
   </div>
   <div class="form-row">
     <div class="form-field">
-      <label for="oxfordEmail-{{ fid }}">Oxford Email</label>
-      <input id="oxfordEmail-{{ fid }}" name="Oxford Email" type="email" pattern="^[^@\s]+@[^@\s]*ox\.ac\.uk$" title="Please enter a valid Oxford email address (must end in ox.ac.uk)" required>
+      <label for="oxfordEmail-{{ fid }}">Oxford Email (or personal email if not yet received) <span class="form-required">*</span></label>
+      <input id="oxfordEmail-{{ fid }}" name="Oxford Email" type="email" required>
     </div>
     <div class="form-field">
-      <label for="college-{{ fid }}">College</label>
+      <label for="college-{{ fid }}">College <span class="form-required">*</span></label>
       <input id="college-{{ fid }}" name="College" type="text" required>
     </div>
   </div>
   <div class="form-row">
     <div class="form-field">
-      <label for="courseTitle-{{ fid }}">Course Title</label>
+      <label for="courseTitle-{{ fid }}">Course Title <span class="form-required">*</span></label>
       <input id="courseTitle-{{ fid }}" name="Course Title" type="text" placeholder="e.g. Economics and Management" required>
     </div>
     <div class="form-field">
-      <label for="courseType-{{ fid }}">Course Type</label>
+      <label for="courseType-{{ fid }}">Course Type <span class="form-required">*</span></label>
       <select id="courseType-{{ fid }}" name="Course Type" required>
         <option value="">Select&hellip;</option>
         <option value="BA/BSc">BA/BSc</option>
@@ -42,11 +42,11 @@
   </div>
   <div class="form-row">
     <div class="form-field">
-      <label for="yearOfStudy-{{ fid }}">Year of Study</label>
+      <label for="yearOfStudy-{{ fid }}">Year of Study <span class="form-required">*</span></label>
       <input id="yearOfStudy-{{ fid }}" name="Year of Study" type="text" placeholder="e.g. 2nd year" required>
     </div>
     <div class="form-field">
-      <label for="fieldOfStudy-{{ fid }}">Field of Study</label>
+      <label for="fieldOfStudy-{{ fid }}">Field of Study <span class="form-required">*</span></label>
       <select id="fieldOfStudy-{{ fid }}" name="Field of Study" required>
         <option value="">Select&hellip;</option>
         <option value="STEM">STEM</option>
@@ -62,7 +62,7 @@
   </div>
   <label class="form-consent">
     <input type="checkbox" name="Consent" required>
-    <span>I agree for OSFSS to hold and store my data entered in this form. I also agree to receive weekly/biweekly updates from the OSFSS Committee.</span>
+    <span>I agree for OSFSS to hold and store my data entered in this form. I also agree to receive weekly/biweekly updates from the OSFSS Committee. <span class="form-required">*</span></span>
   </label>
   <button class="btn" type="submit">Submit</button>
   <p class="form-success">Thanks for submitting!</p>
