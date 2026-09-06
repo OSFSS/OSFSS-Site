@@ -1,8 +1,8 @@
 <section class="section committee" id="committee">
   <div class="wrap">
-    <h2 class="committee__heading">OSFSS Committee 2026/27</h2>
     <div class="committee-layout">
       <div class="committee-officers">
+        <h2 class="committee__heading">OSFSS Committee 2026/27</h2>
         {% for stream in committee.streams %}
           {% if loop.first %}<h3 class="committee__subheading">{{ stream.name }}</h3>{% else %}<h3 class="committee__stream-title">{{ stream.name }}</h3>{% endif %}
           <div class="committee-grid committee-grid--officers">
