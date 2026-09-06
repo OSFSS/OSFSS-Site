@@ -18,21 +18,21 @@
   <div class="form-row">
     <div class="form-field">
       <label for="oxfordEmail-{{ fid }}">Oxford Email</label>
-      <input id="oxfordEmail-{{ fid }}" name="Oxford Email" type="email" required>
+      <input id="oxfordEmail-{{ fid }}" name="Oxford Email" type="email" pattern="^[^@\s]+@[^@\s]*ox\.ac\.uk$" title="Please enter a valid Oxford email address (must end in ox.ac.uk)" required>
     </div>
     <div class="form-field">
       <label for="college-{{ fid }}">College</label>
-      <input id="college-{{ fid }}" name="College" type="text">
+      <input id="college-{{ fid }}" name="College" type="text" required>
     </div>
   </div>
   <div class="form-row">
     <div class="form-field">
       <label for="courseTitle-{{ fid }}">Course Title</label>
-      <input id="courseTitle-{{ fid }}" name="Course Title" type="text" placeholder="e.g. Economics and Management">
+      <input id="courseTitle-{{ fid }}" name="Course Title" type="text" placeholder="e.g. Economics and Management" required>
     </div>
     <div class="form-field">
       <label for="courseType-{{ fid }}">Course Type</label>
-      <select id="courseType-{{ fid }}" name="Course Type">
+      <select id="courseType-{{ fid }}" name="Course Type" required>
         <option value="">Select&hellip;</option>
         <option value="BA/BSc">BA/BSc</option>
         <option value="MA/MSc/MPhil">MA/MSc/MPhil</option>
@@ -43,11 +43,11 @@
   <div class="form-row">
     <div class="form-field">
       <label for="yearOfStudy-{{ fid }}">Year of Study</label>
-      <input id="yearOfStudy-{{ fid }}" name="Year of Study" type="text" placeholder="e.g. 2nd year">
+      <input id="yearOfStudy-{{ fid }}" name="Year of Study" type="text" placeholder="e.g. 2nd year" required>
     </div>
     <div class="form-field">
       <label for="fieldOfStudy-{{ fid }}">Field of Study</label>
-      <select id="fieldOfStudy-{{ fid }}" name="Field of Study">
+      <select id="fieldOfStudy-{{ fid }}" name="Field of Study" required>
         <option value="">Select&hellip;</option>
         <option value="STEM">STEM</option>
         <option value="Humanities">Humanities</option>
