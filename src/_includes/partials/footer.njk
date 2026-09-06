@@ -9,22 +9,28 @@
         <p>{{ site.footer.address }}</p>
         <a class="btn btn--join-dark js-join-trigger" style="margin-top:14px" href="{{ site.joinUrl }}">Join now</a>
       </div>
-      <nav>
-        <ul>
-          <li><a href="/">Home</a></li>
-          <li><a href="/#about">About Us</a></li>
-          <li><a href="/#termcard">Termcard</a></li>
-          <li><a href="/blog/">Blog</a></li>
-        </ul>
-      </nav>
+      <div class="site-footer__nav-col">
+        <nav>
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/#about">About Us</a></li>
+            <li><a href="/#termcard">Termcard</a></li>
+            <li><a href="/blog/">Blog</a></li>
+          </ul>
+        </nav>
+        <div class="site-footer__social">
+          {% for s in site.social %}
+          <a href="{{ s.url }}" target="_blank" rel="noopener"><img src="{{ s.icon }}" alt="{{ s.name }}"></a>
+          {% endfor %}
+        </div>
+      </div>
+      <div class="site-footer__partners">
+        <a href="https://www.smithschool.ox.ac.uk/research/sustainable-finance/" target="_blank" rel="noopener"><img src="/assets/img/osfg-logo-footer.png" alt="Oxford Sustainable Finance Group"></a>
+        <a href="https://www.smithschool.ox.ac.uk/research/sustainable-law/index.html#overview" target="_blank" rel="noopener"><img src="/assets/img/oxsl-logo.png" alt="Oxford Sustainable Law Programme"></a>
+      </div>
     </div>
     <div class="site-footer__bottom">
       <a class="site-footer__logo" href="/"><img src="/assets/img/logo-white.png" alt="{{ site.name }}"></a>
-      <div class="site-footer__social">
-        {% for s in site.social %}
-        <a href="{{ s.url }}" target="_blank" rel="noopener"><img src="{{ s.icon }}" alt="{{ s.name }}"></a>
-        {% endfor %}
-      </div>
     </div>
   </div>
 </footer>
